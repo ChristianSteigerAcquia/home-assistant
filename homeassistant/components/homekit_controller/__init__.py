@@ -48,7 +48,7 @@ class HomeKitConnectionError(ConnectionError):
 
 
 def homekit_http_send(self, message_body=None, encode_chunked=False):
-    r"""Send the currently buffered request and clear the buffer.
+    """Send the currently buffered request and clear the buffer.
 
     Appends an extra \r\n to the buffer.
     A message_body may be specified, to be appended to the request.
